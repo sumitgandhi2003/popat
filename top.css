@@ -1,0 +1,253 @@
+#top{
+    background-color:#fcb426;
+    color: aliceblue;
+    position: relative;
+    top: -19px;
+    width: 100%;
+}
+#pic{
+    width: 7%;
+    display: inline-block;
+    
+}
+#random{
+  position:absolute;
+  top: 15%;
+  left: 10%;
+  font-size:xx-large larger;
+}
+h3{
+   text-align: end; 
+    letter-spacing: 2px;
+    font-size: large;
+    font-weight: 300;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#followus{
+    
+    width: 20%;
+    margin-top: -5%;
+    margin-left: 5%;
+}
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: green;
+    border-radius: 30px;
+  }
+  
+  li {
+    float: left;
+    margin: 8px;
+    padding: 2px;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #9DCD17;
+  }
+  body,html{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    font-family: sans-serif;
+}
+@media screen and (max-width:600px)
+{
+  #button ul{
+    width: 40%;
+    float: left;
+  }
+    #button ul li {
+      float: none;
+    }
+
+   .items .item img{
+      width: 100px;
+      height: 100px;
+    }  
+    
+    .footer{
+      margin-top: 100px;
+      width: 30%;
+      padding: 52px 5%;
+    }
+      .footer div{
+        text-align: start;
+      }
+    }
+
+
+.Section_top{
+    margin-left: 116px;
+    margin-top: 14px;
+    width: 84%;
+    border: 2px solid red;
+    height: 55%;
+    overflow: hidden;
+    position: relative;
+    background-image: url("https://thumbs.dreamstime.com/b/heart-shape-various-vegetables-fruits-healthy-food-concept-isolated-white-background-140287808.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    justify-content: center;
+    animation: change 10s infinite ease-in-out;
+}
+
+
+@keyframes change{
+    0%
+    {
+        background-image: url("https://media.istockphoto.com/id/1203599963/photo/food-background-with-assortment-of-fresh-organic-fruits-and-vegetables.jpg?s=612x612&w=0&k=20&c=JKjEfvVa0ZieiyDbvhbUaCRgZ0MQJcx7cf35k-vRftY=");
+    }
+    20%
+    {
+        background-image: url("https://www.shutterstock.com/image-photo/assorted-organic-vegetables-fruits-wicker-260nw-1720876849.jpg");
+    }
+    40%
+    {
+        background-image: url("https://www.cdc.gov/foodsafety/images/comms/features/GettyImages-1247930626-500px.jpg?_=00453");
+    }
+    60%
+    {
+        background-image: url("https://static.toiimg.com/photo/78913034.cms");
+    }
+    80%
+    {
+        background-image: url("https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/assortment-of-colorful-ripe-tropical-fruits-top-royalty-free-image-995518546-1564092355.jpg");
+    }
+    100%
+    {
+        background-image: url("https://health.clevelandclinic.org/wp-content/uploads/sites/3/2020/08/best-fruits-1197259281-770x533-1-650x428.jpg");
+    }
+}
+.items{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 30px 20px;
+} 
+.item img{
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  cursor: pointer;
+  transition: 0.2s ease;
+
+}
+.item img:hover{
+  transform: scale(1.04);
+}
+.item h4{
+  padding: 5px 30px;
+  text-align: center;
+}
+.item button{
+  padding: 5px 30px;
+  background-color: green;
+  cursor: pointer;
+}
+.img{
+  width: 40px;
+  height: 40px;
+  border-radius: 40%;
+}
+table{
+  float: right;
+}
+.footer {
+  margin-top: 136px;
+  width: 70%;
+  padding: 82px 15%;
+  color: black;
+  display: flex;
+  border: 5px solid black;
+}
+.footer div{
+  text-align: center;
+}
+.col-2{
+  flex-grow: 2;
+}
+.footer div h3{
+  font-weight: 300;
+  margin-bottom: 30px;
+ 
+}
+.footer div h2{
+  font-weight: 300;
+  margin-left: 30px;
+ 
+}
+.col-1 a{
+  display: block;
+  text-decoration: none;
+  color: black;
+  margin-bottom:12px ;
+}
+#tp{
+  border: 2px solid greenyellow;
+  color: orange;
+  border-radius: 30px;
+  padding: 10px 30px;
+}
+#free {
+  height: 23%;
+  width: 14%;
+  /* background-position: center; */
+  background-size: cover;
+  position:absolute;
+  top: 8%;
+  left: 80%;
+}
+#search{
+  position:absolute;
+  top: 20%;
+  left: 40%;
+}
+#developer{
+  text-align: center;
+  margin-left: 10px;
+}
+.itemss{
+  display:grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 2px 7px;
+} 
+.itemsss{
+  width: 60%;
+  height: 20%;
+  object-fit: cover;
+  cursor: pointer;
+  transition: 0.2s ease;
+   border-radius: 20%;
+  margin-top: 202px;
+}
+.itemsss img:hover{
+  transform: scale(1.04);
+}
+/* #review{
+  text-align: center;
+} */
+.review {
+  border: 2px solid red;
+  margin-top: 141%;
+  width: 208%;
+  margin-left: -40%;
+}
+#name{
+  text-align: start;
+} 

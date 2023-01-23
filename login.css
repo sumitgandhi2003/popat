@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.hero{
+    height: 100%;
+    width: 100%;
+    background-image: url("https://img.freepik.com/free-vector/nature-scene-with-river-hills-forest-mountain-landscape-flat-cartoon-style-illustration_1150-37326.jpg");
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+
+    #user {
+        margin-left: 62px;
+        margin-top: 10px;
+        width: 57%;
+    }
+
+#password{
+    margin-left: 62px;
+    margin-top: 10px;
+    width: 57%;
+}
+#h2{
+    text-align: center;
+}
+.form{
+    width: 280px;
+    height: 280px;
+    position: relative;
+    margin: 9% auto;
+    background: white;
+    padding: 5px;
+}
+.social{
+ margin: 30px auto;
+ text-align: center;   
+}
+.social img{
+width: 30px; 
+}
+span{
+    margin-left: 12px;
+    margin-top: 10px;    
+}
+#checkbox{
+    margin-left: 52px;
+    margin-top: 10px;    
+}
+#submit{
+    color: orange;
+}
+
